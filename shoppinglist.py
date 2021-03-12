@@ -1,4 +1,4 @@
-# Shopping List v 0.1
+# Shopping List v 0.2
 
 print('Shopping list:')
 print('\"I need you to buy this at the store! Please, take in count the following instructions\"')
