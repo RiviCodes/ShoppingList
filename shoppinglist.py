@@ -12,9 +12,9 @@ print('#    #   #   #   #   #   #   #   #   #')
 
 eggsE = input(str(('Now, here at the store, are there eggs available? (y/n) ')))
 
-if eggsE == 'y':
+if eggsE == 'y':        # The 'E' is for 'existence' (in stock)
     print('Great! I found the eggs and picked 10 of them')
-    eggsQ = int(10)
+    eggsQ = int(10)     # And the 'Q' for 'quantity'
     eggsE = True
 elif eggsE == 'n':
     print('Oh... it looks there are no eggs left.')
